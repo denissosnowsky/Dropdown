@@ -1,0 +1,36 @@
+.selectHeader {
+  width: 100%;
+  min-height: 40px;
+  background: #ffffff;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow img {
+  display: block;
+}
+
+.placeholdBlock {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  color: #c1c1c1;
+}
+
+.input {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

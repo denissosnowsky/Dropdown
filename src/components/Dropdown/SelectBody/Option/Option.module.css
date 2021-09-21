@@ -1,0 +1,54 @@
+.option {
+  height: 52px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.option:last-of-type {
+  border-bottom: 0px;
+}
+
+.title {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title img {
+  border-radius: 2px;
+}
+
+.name {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.checkboxEmpty,
+.checkboxPushed {
+  border-radius: 4px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.checkboxEmpty {
+  background: #ffffff;
+  border: 2px solid #c1c1c1;
+}
+
+.checkboxPushed {
+  background: #005ffd;
+  border: 2px solid #0049d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

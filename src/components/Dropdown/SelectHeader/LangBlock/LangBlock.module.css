@@ -1,0 +1,28 @@
+.langBlock {
+  width: fit-content;
+  background: #f4f4f4;
+  border-radius: 10px;
+  height: 26px;
+  display: flex;
+  margin-right: 4px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.langBlock__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+  color: #333;
+  padding-left: 12px;
+}
+
+.langBlock__cross {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-right: 14.25px;
+  margin-left: 10.25px;
+  cursor: pointer;
+}
