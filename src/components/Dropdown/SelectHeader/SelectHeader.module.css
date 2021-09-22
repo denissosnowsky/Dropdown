@@ -19,12 +19,18 @@
   display: block;
 }
 
+.arrowRotated {
+  transform: rotate(180deg);
+}
+
 .placeholdBlock {
+  width: 100%;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 100%;
   color: #c1c1c1;
+  cursor: pointer;
 }
 
 .input {
@@ -33,4 +39,8 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  height: 100%;
+}
+
+.null {
 }

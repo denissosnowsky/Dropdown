@@ -62,3 +62,8 @@
 .searchInput__text input:focus {
   outline: none;
 }
+
+.emptyFooter {
+  height: 16px;
+  width: 100%;
+}
